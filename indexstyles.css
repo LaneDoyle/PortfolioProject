@@ -1,0 +1,112 @@
+
+
+
+
+
+/* Main Styles */
+
+html {
+  background-image: url(rain-drops.jpg); /*Image from pixabay.com */
+  background-attachment: scroll;
+  background-repeat: stretch;
+  height: 100%
+}
+
+body {
+  background-color: white;
+  margin: 0px auto;
+  width: 90%;
+  max-width: 1000px;
+  min-width: 800px;
+  height: 100%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav {
+  display: inline-block;
+  width: 50%;
+}
+
+footer {
+  height: 10%;
+  background-color: black;
+  color: white;
+}
+
+/* Grid Styles- code created with Layoutit.com */
+.grid-container {
+  height: 70%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.grid-container * {
+ border: 1px dashed red;
+ position: relative;
+}
+
+.grid-container *:after {
+ content:attr(class);
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 0.1fr 2fr 1.1fr;
+  grid-template-rows: 5fr 0.2fr 0.1fr;
+  grid-template-areas: "body body main section" "body body main section" ". . . .";
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "picture 3 picture 3 picture 3" "paragraph3 paragraph3 paragraph3";
+  grid-area: body;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1.8fr 0.1fr 1.1fr;
+  grid-template-rows: 0.7fr 1.3fr;
+  grid-template-areas: "header header picture" "paragraph paragraph paragraph";
+  grid-area: main;
+}
+
+.picture {
+  grid-area: picture;
+}
+
+.header {
+  grid-area: header;
+}
+
+.paragraph {
+  grid-area: paragraph;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "picture2 picture2 picture2" "paragraph2 paragraph2 paragraph2";
+  grid-area: section;
+}
+
+.picture2 {
+  grid-area: picture2;
+ }
+
+.paragraph2 {
+  grid-area: paragraph2;
+}
