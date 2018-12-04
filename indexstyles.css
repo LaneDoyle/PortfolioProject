@@ -20,6 +20,7 @@ body {
   min-width: 800px;
   height: 100%;
   box-shadow: 20px 10px 60px black, -20px -10px 60px black;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 footer {
@@ -36,6 +37,11 @@ h1 {
   text-align: center;
   font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   font-size: 3em;
+}
+
+p {
+  text-align: center;
+  justify-content: center;
 }
 /* Link Styles */
 
@@ -64,7 +70,28 @@ a#contacts:hover {
   color: rgb(255, 179, 179);
 }
 
-/* Grid Styles- code created with Layoutit.com and updated by Lane Doyle */
+/* Picture Styles */
+
+img#profile {
+  width: 200px;
+  display: block;
+  position: relative;
+  margin-left: 100%;
+  margin-right: auto;
+}
+
+img#award {
+  width: 350%;
+  padding-top: 100%;
+  padding-bottom: 10%;
+  padding-right: 12%;
+  padding-left: 1%;
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* Grid Styles- code created with Layoutit.com and modified by Lane Doyle */
 .grid-container {
   height: 70%;
   padding-left: 2%;
@@ -74,7 +101,6 @@ a#contacts:hover {
 }
 
 .grid-container * {
- border: 1px ridge black;
  position: relative;
 }
 
@@ -90,7 +116,8 @@ a#contacts:hover {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-area: body;
-  background-color: white
+  background-color: white;
+  border: 1px ridge black;
 }
 
 .main {
@@ -98,7 +125,8 @@ a#contacts:hover {
   grid-template-columns: 1.8fr 0.1fr 1.1fr;
   grid-template-rows: 0.7fr 1.3fr;
   grid-area: main;
-  background-color: white
+  background-color: white;
+  border: 1px ridge black;
 }
 
 .section {
@@ -106,5 +134,6 @@ a#contacts:hover {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-area: section;
-  background-color: white
+  background-color: white;
+  border: 1px ridge black;
 }
