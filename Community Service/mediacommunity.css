@@ -28,6 +28,7 @@
     display: none;
     word-spacing: 2px;
     line-height: 1.2em;
+    padding: 0px;
   }
 
   a#navicon:hover+ul, header nav ul:hover {
