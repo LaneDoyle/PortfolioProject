@@ -102,11 +102,73 @@ footer a:hover {
   color: rgb(0, 61, 102);
 }
 
-a#contact {
+
+a#contact:hover {
+  color: rgb(67, 67, 123);
+}
+
+section {
+  text-align: center;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+section nav ul li a {
   text-decoration: none;
   color: blue;
 }
 
-a#contact:hover {
-  color: rgb(67, 67, 123);
+section nav ul li a:hover {
+  color: rgb(235, 153, 255);
+}
+
+h2 {
+  padding-top: 5px;
+}
+
+/* ===============================
+	Mobile Devices: 0 to 480px
+   ===============================
+*/
+
+@media only screen and (max-width: 480px) {
+
+  html, body {
+    height: 105%;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  a#navicon {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+    word-spacing: 2px;
+    line-height: 1.2em;
+    padding: 0px;
+  }
+
+  a#navicon:hover+ul, header nav ul:hover {
+    display: block;
+
+  }
+
+  footer {
+    margin: 0px;
+  }
+
+  section {
+    word-wrap: break-word;
+  }
+
+
 }
