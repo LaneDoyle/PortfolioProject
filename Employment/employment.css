@@ -110,3 +110,11 @@ a#contact {
 a#contact:hover {
   color: rgb(67, 67, 123);
 }
+
+img#facebook {
+  width: 3%;
+}
+
+img#twitter {
+  width: 3%;
+}

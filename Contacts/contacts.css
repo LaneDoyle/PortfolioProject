@@ -131,6 +131,14 @@ h2 {
   padding-top: 5px;
 }
 
+img#facebook {
+  width: 3%;
+}
+
+img#twitter {
+  width: 3%;
+}
+
 /* ===============================
 	Mobile Devices: 0 to 480px
    ===============================
