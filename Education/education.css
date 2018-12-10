@@ -64,7 +64,7 @@ footer {
    line-height: 30px;
    text-align: center;
    vertical-align: bottom;
-   margin-top: 10%;
+   margin-top: 3%;
 }
 
 /* Link Styles */
@@ -117,4 +117,85 @@ img#facebook {
 
 img#twitter {
   width: 3%;
+}
+
+/* Section Styles */
+
+section {
+  text-align: center;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 1%;
+  margin-top: 1%;
+
+}
+
+h4 {
+  margin: 2%;
+}
+
+img {
+  width: 10%;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  letter-spacing: 0.2em;
+  word-spacing: 0.2em;
+  font-size: 1.9em;
+}
+
+
+/* ===============================
+	Mobile Devices: 0 to 480px
+   ===============================
+*/
+
+@media only screen and (max-width: 480px) {
+
+  section img {
+    display: none;
+  }
+
+  html, body {
+    height: 120%;
+  }
+
+  h1 {
+    font-size: 1.2em;
+  }
+
+  a#navicon {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+    word-spacing: 2px;
+    line-height: 1.2em;
+    padding: 0px;
+  }
+
+  a#navicon:hover+ul, header nav ul:hover {
+    display: block;
+
+  }
+
+  footer {
+    margin: 0px;
+  }
+
+  section {
+    word-wrap: break-word;
+    text-align: center;
+    padding-right: 2%;
+  }
+
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 0em;
+  }
+
+
 }

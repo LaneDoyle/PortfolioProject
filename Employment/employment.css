@@ -118,3 +118,27 @@ img#facebook {
 img#twitter {
   width: 3%;
 }
+
+section {
+  text-align: center;
+  background-color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+section nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+
+section nav ul li a:hover {
+  color: rgb(235, 153, 255);
+}
+
+h2 {
+  padding-top: 5px;
+}
