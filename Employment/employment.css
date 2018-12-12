@@ -130,7 +130,7 @@ section {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 10%;
-  margin-top: 5%;
+  margin-top: 1%;
   padding-top: 10%;
   padding-bottom: 10%;
 }
@@ -201,6 +201,10 @@ img#garden {
   section nav ol li {
     padding-right: 10%;
     line-height: 1.4em;
+  }
+
+  img#donut, img#garden {
+    display: none;
   }
 
 

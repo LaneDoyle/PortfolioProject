@@ -232,7 +232,7 @@ article img {
 @media only screen and (max-width: 480px) {
 
   html, body {
-    height: 105%;
+    height: 170%;
   }
 
   div.grid-container {
@@ -270,6 +270,8 @@ article img {
   section {
     word-wrap: break-word;
   }
+
+
 
 
 }

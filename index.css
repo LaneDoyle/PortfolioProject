@@ -48,8 +48,7 @@ h2 {
   padding-bottom: 3%;
   padding-top: 3%;
   text-align: center;
-  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  font-size: 3em;
+  font-size: 4px;
   border: 1px dashed black;
 }
 
@@ -185,6 +184,7 @@ img#twitter {
   h2 {
     margin: 0%;
     padding: 4%;
+    font-size: 300%;
   }
 
   h1 {
