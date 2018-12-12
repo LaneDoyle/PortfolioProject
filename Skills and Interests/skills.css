@@ -9,8 +9,7 @@ html {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-
-  height: 125%
+  height: 180%
 }
 
 body {
@@ -220,7 +219,40 @@ article img {
   grid-area: article;
 }
 
+/* Section Styles */
 
+section {
+  background-image: url(../computer.png);
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 3%;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 7%;
+  text-align: center;
+}
+
+section h3 {
+  padding-right: 5%;
+  background-color: white;
+  color: black;
+  margin-left: auto;
+  margin-right: 15%;
+}
+
+section nav ul {
+  padding-right: 15%;
+  padding-right: 5%;
+  background-color: white;
+  color: black;
+  margin-left: auto;
+  margin-right: 15%;
+}
+
+section img {
+  width: 30%;
+}
 
 
 
@@ -235,7 +267,7 @@ article img {
     height: 170%;
   }
 
-  div.grid-container {
+  div.grid-container, section {
     display: none;
   }
 
