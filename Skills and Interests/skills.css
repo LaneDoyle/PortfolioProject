@@ -3,9 +3,14 @@
 /* Main Styles */
 html {
   background-image: url(../rain-drops.jpg); /*Image from pixabay.com */
-  background-attachment: scroll;
-  background-repeat: stretch;
-  height: 112%
+  background-attachment: fixed; /* Code from Josh */
+  background-position: left;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
+  height: 125%
 }
 
 body {
@@ -70,6 +75,7 @@ footer {
 /* Link Styles */
 
 header nav ul {
+  text-align: center;
   background-color: rgb(153, 214, 255);
   word-spacing: 40px;
 }
@@ -140,27 +146,27 @@ img#twitter {
 }
 
 img#img1 {
-  width: 300px;
+  width: 70%;
 }
 
 img#img2 {
-  width: 300px;
+  width: 70%;
 }
 
 img#img3 {
-  width: 300px;
+  width: 70%;
 }
 
 img#img4 {
-  width: 300px;
+  width: 70%;
 }
 
 img#img5 {
-  width: 300px;
+  width: 70%;
 }
 
 img#img6 {
-  width: 300px;
+  width: 70%;
 }
 
 aside img {
