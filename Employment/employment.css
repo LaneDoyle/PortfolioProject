@@ -146,6 +146,7 @@ section nav ul li a:hover {
 
 h2 {
   padding-top: 5px;
+  padding-left: 3%;
 }
 
 /* Image Styles - all images from Pixabay */
@@ -157,6 +158,8 @@ img#donut {
 img#garden {
   width: 20%;
   padding-top: 5%;
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
 }
 
 /* ===============================
