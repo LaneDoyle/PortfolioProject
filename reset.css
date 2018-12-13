@@ -42,7 +42,7 @@ h2, h3, h4 {
   font-family: 'Nanum Gothic Coding', monospace;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar { /* code from Ruiz */
   width: 10px;
 }
 
