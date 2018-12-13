@@ -225,7 +225,7 @@ article img {
 /* Section Styles */
 
 section {
-  background-image: url(../computer.png);
+  background-image: url(../computer.png); /* Photo from Pixabay */
   color: white;
   margin-left: 5%;
   margin-right: 5%;
