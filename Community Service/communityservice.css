@@ -77,7 +77,6 @@ footer {
 header nav ul {
   text-align: center;
   background-color: rgb(153, 214, 255);
-  word-spacing: 40px;
 }
 
 header nav ul li {
@@ -85,6 +84,7 @@ header nav ul li {
    font-size: 0.8em;
    padding-left: 10px;
    display: inline-block;
+   padding-right: 5%;
 }
 
 header nav ul li a {
