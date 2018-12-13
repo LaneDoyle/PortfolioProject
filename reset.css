@@ -41,3 +41,19 @@ nav a {
 h2, h3, h4 {
   font-family: 'Nanum Gothic Coding', monospace;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(77, 210, 255);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 172, 230);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 115, 153);
+}
